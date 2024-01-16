@@ -6,7 +6,7 @@ dustdata_class = globalvars.DustData
 dustdata = dustdata_class()
 
 
-def select_stars(ll, bb, tab, dustdata=dustdata, radius = 1):
+def select_stars(tab, ll, bb, dustdata=dustdata, radius = 1):
     cond = np.sqrt((tab['GLON'] - ll)**2 + (tab['GLAT'] - bb)**2) < radius
     return np.where(cond)[0]
 

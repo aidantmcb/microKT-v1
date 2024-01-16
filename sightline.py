@@ -2,8 +2,11 @@ import numpy as np
 from astropy.io import fits
 from specfns import get_wavs, dopplershift
 import globalvars 
+import astropy.units as u
 
 lambda0 = 15272.42
+
+sigma0 = 1.15
 
 from spacefns_v2 import dAV_dd_array, differentialAmplitude
 from filehandling import get_ca_res, get_madgics_res

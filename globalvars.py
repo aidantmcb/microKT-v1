@@ -4,6 +4,8 @@ from astropy.coordinates import SkyCoord
 import astropy.units as u
 
 l0, b0 = (163., -8.0)
+lambda0 = 15272.42
+sigma0 = 1.15
 
 global global_var
 global_var = 'hi'

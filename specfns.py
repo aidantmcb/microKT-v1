@@ -1,5 +1,7 @@
 import numpy as np
 from scipy.interpolate import interp1d
+import astropy.units as u
+import astropy.constants as c
 
 lambda0 = 15272.42
 sigma0 = 1.15
